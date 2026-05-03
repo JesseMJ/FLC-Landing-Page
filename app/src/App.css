@@ -5,7 +5,7 @@
 }
 
 .main-header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -14,6 +14,14 @@
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  transition: background-color 0.3s ease, padding 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-header.scrolled {
+  background-color: rgba(26, 29, 32, 0.95);
+  padding: 16px 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
 }
 
 .logo-container {
@@ -22,9 +30,14 @@
 }
 
 .brand-logo {
-  height: 50px; /* Adjust as necessary based on your preference */
+  height: 90px; /* Increased from 50px */
   width: auto;
   object-fit: contain;
+  transition: height 0.3s ease;
+}
+
+.main-header.scrolled .brand-logo {
+  height: 60px; /* Shrinks slightly when scrolled */
 }
 
 .header-cta {
