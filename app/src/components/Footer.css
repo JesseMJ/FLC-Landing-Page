@@ -1,0 +1,32 @@
+.minimal-footer {
+  background-color: var(--color-primary-bg);
+  padding: 40px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.contact-email a {
+  color: var(--color-text-main);
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.contact-email a:hover {
+  color: var(--color-cta);
+}
+
+.powered-by {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.5;
+}
