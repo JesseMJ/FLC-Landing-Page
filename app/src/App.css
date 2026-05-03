@@ -30,7 +30,7 @@
 }
 
 .brand-logo {
-  height: 90px; /* Increased from 50px */
+  height: 75px; /* Reduced from 90px (approx 15%) */
   width: auto;
   object-fit: contain;
   transition: height 0.3s ease;
