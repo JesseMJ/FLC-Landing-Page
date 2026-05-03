@@ -13,15 +13,6 @@
   font-size: 0.9rem;
 }
 
-.contact-email a {
-  color: var(--color-text-main);
-  font-weight: 600;
-  transition: color 0.2s ease;
-}
-
-.contact-email a:hover {
-  color: var(--color-cta);
-}
 
 .powered-by {
   margin-top: 20px;

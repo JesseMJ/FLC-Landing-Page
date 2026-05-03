@@ -16,17 +16,16 @@
   z-index: 100;
 }
 
-.logo-placeholder {
-  font-size: 2rem;
-  font-weight: 900;
-  letter-spacing: -0.05em;
+.logo-container {
   display: flex;
-  gap: 2px;
+  align-items: center;
 }
 
-.logo-f { color: var(--color-text-main); }
-.logo-l { color: var(--color-cta); }
-.logo-c { color: var(--color-text-main); }
+.brand-logo {
+  height: 50px; /* Adjust as necessary based on your preference */
+  width: auto;
+  object-fit: contain;
+}
 
 .header-cta {
   background: transparent;
